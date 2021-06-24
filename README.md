@@ -1,9 +1,9 @@
 # CUSTOMER LIFETIME VALUE (CLTV) CALCULATION
 
 
-## CLTV: Customer lifetime value is how much money a customer will bring your brand throughout their entire time as a paying customer.
+### CLTV: Customer lifetime value is how much money a customer will bring your brand throughout their entire time as a paying customer.
 
-## Calculations:
+### Calculations:
 - Average Order Value (average_order_value = total_price / total_transaction)
 - Purchase Frequency (total_transaction / total_number_of_customers)
 - Repeat Rate & Churn Rate (multiple shoppers / all customers)
@@ -12,9 +12,9 @@
 - Customer Lifetime Value (CLTV = (customer_value / churn_rate) x profit_margin)
 
 
-# This project is valid at the time of the analysis. Because of that, CLTV Prediction is a better and more proper project type.
+### This project is valid at the time of the analysis. Because of that, CLTV Prediction is a better and more proper project type.
 
-# CLTV Prediction Project is also will be on my profile soon.
+#### CLTV Prediction Project is also will be on my profile soon.
 
 
 
