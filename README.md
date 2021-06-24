@@ -6,7 +6,7 @@
 ## Calculations:
 - Average Order Value (average_order_value = total_price / total_transaction)
 - Purchase Frequency (total_transaction / total_number_of_customers)
-- Repeat Rate & Churn Rate (birden fazla alışveriş yapan müşteri sayısı / tüm müşteriler)
+- Repeat Rate & Churn Rate (multiple shoppers / all customers)
 - Profit Margin (profit_margin =  total_price * 0.10)
 - Customer Value (customer_value = average_order_value * purchase_frequency) | Satın alma başına ort. kazanç X satın alma sayısı
 - Customer Lifetime Value (CLTV = (customer_value / churn_rate) x profit_margin)
