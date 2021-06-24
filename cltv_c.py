@@ -1,21 +1,3 @@
-############################################
-# CUSTOMER LIFETIME VALUE
-############################################
-
-# CLTV: Customer lifetime value is how much money a customer will bring your brand throughout their entire time as a paying customer.
-
-# Calculations
-### Average Order Value (average_order_value = total_price / total_transaction)
-### Purchase Frequency (total_transaction / total_number_of_customers)
-### Repeat Rate & Churn Rate (birden fazla alışveriş yapan müşteri sayısı / tüm müşteriler)
-### Profit Margin (profit_margin =  total_price * 0.10)
-### Customer Value (customer_value = average_order_value * purchase_frequency) | Satın alma başına ort. kazanç X satın alma sayısı
-### Customer Lifetime Value (CLTV = (customer_value / churn_rate) x profit_margin)
-
-# This project is valid at the time of the analysis. Because of that, CLTV Prediction is a better and more proper project type.
-# CLTV Prediction Project is also will be on my profile soon.
-
-
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
@@ -121,7 +103,7 @@ Customer ID
 """
 
 
-# 4. Repeat Rate & Churn Rate (birden fazla alışveriş yapan müşteri sayısı / tüm müşteriler)
+# 4. Repeat Rate & Churn Rate (multiple shoppers / all customers)
 repeat_rate = cltv_c[cltv_c.total_transaction > 1].shape[0] / cltv_c.shape[0]
 churn_rate = 1 - repeat_rate
 
