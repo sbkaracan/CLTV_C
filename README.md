@@ -8,7 +8,7 @@
 - Purchase Frequency (total_transaction / total_number_of_customers)
 - Repeat Rate & Churn Rate (multiple shoppers / all customers)
 - Profit Margin (profit_margin =  total_price * 0.10)
-- Customer Value (customer_value = average_order_value * purchase_frequency) | Satın alma başına ort. kazanç X satın alma sayısı
+- Customer Value (customer_value = average_order_value * purchase_frequency)
 - Customer Lifetime Value (CLTV = (customer_value / churn_rate) x profit_margin)
 
 
@@ -20,5 +20,5 @@
 
 #### Dataset: https://archive.ics.uci.edu/ml/datasets/online+retail
 
-#### Note: At the customer_segmentation_rfm.py file, you can see the output of some important lines at the comment line.
+#### Note: At the cltv_c.py file, you can see the output of some important lines at the comment line.
 #### Keywords: cltv, customer lifetime value, cltv calculation
